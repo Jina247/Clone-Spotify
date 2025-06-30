@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/greetUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/be_vietnam_pro_semibold"
+            android:text="@string/good_evening"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/user_image"
+            android:src="@drawable/user"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/greetUser"
+            app:tint="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/allBtn"
+            android:layout_width="58dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/be_vietnam_pro_light"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="4dp"
+            android:text="@string/all"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:cornerRadius="30dp"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/musicBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#2A2A2A"
+            android:fontFamily="@font/be_vietnam_pro_light"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="4dp"
+            android:text="@string/music"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:cornerRadius="30dp"
+            app:layout_constraintStart_toEndOf="@+id/allBtn"
+            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#2A2A2A"
+            android:fontFamily="@font/be_vietnam_pro_light"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="4dp"
+            android:text="@string/podcasts"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:cornerRadius="30dp"
+            app:layout_constraintStart_toEndOf="@+id/musicBtn"
+            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/RecentPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBar">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/RecentPlaylistsRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlaylistRecycler01"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:clipToPadding="false"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_playlist"
+                app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow1"
+                app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow1">
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/RecentPlaylistsRow2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="14dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PlaylistRecycler02"
+                android:layout_width="0dp"
+                android:layout_height="180dp"
+                android:clipToPadding="false"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_playlist"
+                app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow2"
+                app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow2">
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/RecentPlaylists"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/made_for_you"
+            android:textColor="@color/white"
+            android:fontFamily="@font/be_vietnam_pro_semibold"
+            android:textSize="24sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
