@@ -38,7 +38,21 @@ class MainScreen : AppCompatActivity() {
         val recyclerView02 = findViewById<RecyclerView>(R.id.PlaylistRecycler02)
         recyclerView02.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         recyclerView02.adapter = PlaylistViewAdapter(playlist02)
+
+        // Made For You playlists
+        val playlist03 : List<Playlist02> = listOf(
+            Playlist02(R.drawable.taylor_swift_album, "Taylor Swift, Sabrina Carpenter and more"),
+            Playlist02(R.drawable.shawn_album, "Shawn Mendes, Justin Bieber, Carly Rae Jepsen and more"),
+            Playlist02(R.drawable.keshi_album, "keshi, Fujii Kaze, Bemax, RADWIMPS and more"),
+            Playlist02(R.drawable.noeasy_alb, "Stray Kids, Seventeen, Tomorrow x Together and more"),
+            Playlist02(R.drawable.about_you_alb, "The 1975")
+        )
+
+        val recyclerView03 = findViewById<RecyclerView>(R.id.SecondPlaylists)
+        recyclerView03.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        recyclerView03.adapter = Playlist02ViewAdapter(playlist03)
     }
+
 
 
 
