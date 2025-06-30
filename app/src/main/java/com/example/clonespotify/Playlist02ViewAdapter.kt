@@ -29,5 +29,4 @@ class Playlist02ViewAdapter(private val item : List<Playlist02>) :
     override fun getItemCount(): Int {
         return item.size
     }
-
 }
