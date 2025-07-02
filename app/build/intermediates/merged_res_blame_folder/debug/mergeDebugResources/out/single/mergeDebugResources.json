@@ -1,254 +1,298 @@
 [
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_share.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\share.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_communication.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/communication.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_spotify_singles.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/spotify_singles.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_view_artist.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\view_artist.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_setting.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/setting.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_sleep_timer.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\sleep_timer.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/layout_item_playlist02.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/layout/item_playlist02.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_queue.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\queue.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_twelve_notes.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/twelve_notes.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_volume.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\volume.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_keshi_album.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/keshi_album.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_user.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/user.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_report_abuse.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\report_abuse.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_rounded_corner.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/rounded_corner.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_volume.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/volume.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_pause.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\pause.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_like.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\like.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_previous.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/previous.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_communication.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\communication.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_cozy_vibes.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/cozy_vibes.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_song_credits.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\song_credits.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_apple.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/apple.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_previous.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\previous.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_add_to_queue.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/add_to_queue.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\font_be_vietnam_pro_semibold.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\font\\be_vietnam_pro_semibold.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_connect_to_device.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/connect_to_device.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_alec_ben_ab2.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/alec_ben_ab2.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_history.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\history.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_taylor_swift_album.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/taylor_swift_album.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_spotify.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\spotify.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_hide_song.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/hide_song.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_bell.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\bell.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/font_be_vietnam_pro_light.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/font/be_vietnam_pro_light.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.clonespotify.app-debug-33:/layout_activity_main_screen.xml.flat",
-        "source": "com.example.clonespotify.app-main-35:/layout/activity_main_screen.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_spotify_logo.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\spotify_logo.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_notification.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/notification.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_go_to_radio.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\go_to_radio.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_rosie_ab.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/rosie_ab.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\font_be_vietnam_pro_light.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\font\\be_vietnam_pro_light.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_rosie_ab.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\rosie_ab.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/layout_activity_welcome_screen.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/layout/activity_welcome_screen.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_spotify_icon_svg.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\spotify_icon_svg.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_like.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/like.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_add_to_playlist.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/add_to_playlist.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_noeasy_alb.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/noeasy_alb.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/layout_activity_main_screen.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/layout/activity_main_screen.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_next.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/next.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_add_to_playlist.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\add_to_playlist.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_user.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\user.png"
+        "merged": "com.example.clonespotify.app-debug-34:/layout_activity_main_screen.xml.flat",
+        "source": "com.example.clonespotify.app-main-36:/layout/activity_main_screen.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_view_album.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\view_album.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_spotify_icon_svg.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/spotify_icon_svg.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_repeat.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\repeat.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_ari_album.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/ari_album.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\layout_activity_main_screen.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\layout\\activity_main_screen.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_celestial_campfire.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/celestial_campfire.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_lyrics.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/lyrics.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_apple.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\apple.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_full_screen.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/full_screen.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_shawn_album.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\shawn_album.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_alec_ben_ab.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/alec_ben_ab.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_connect_to_device.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\connect_to_device.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_moonlight_peace.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/moonlight_peace.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\xml\\data_extraction_rules.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_queue.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/queue.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_alec_ben_ab.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\alec_ben_ab.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_share.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/share.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_setting.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\setting.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_report_abuse.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/report_abuse.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\layout_item_playlist.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\layout\\item_playlist.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_repeat.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/repeat.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_rounded_corner.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\rounded_corner.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_pause.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/pause.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_about.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\about.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_go_to_radio.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/go_to_radio.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_next.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\next.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_bell.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/bell.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_full_screen.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\full_screen.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_about_you_alb.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/about_you_alb.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_google.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\google.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_shuffle.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/shuffle.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\layout_activity_welcome_screen.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\layout\\activity_welcome_screen.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_history.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/history.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_ari_album.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\ari_album.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_shuffle.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\shuffle.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_lyrics.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\lyrics.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_hide_song.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\hide_song.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_shawn_album.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/shawn_album.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_alec_ben_ab2.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\alec_ben_ab2.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_about.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/about.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\font_be_vietnam_pro_thin.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\font\\be_vietnam_pro_thin.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_song_credits.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/song_credits.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_notification.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\notification.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_spotify_logo.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/spotify_logo.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\xml\\backup_rules.xml"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_spotify.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/spotify.png"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_add_to_queue.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\add_to_queue.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\drawable_taylor_swift_album.png.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\drawable\\taylor_swift_album.png"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user1\\.gradle\\daemon\\8.11.1\\com.example.clonespotify.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/layout_item_playlist.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/layout/item_playlist.xml"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_view_artist.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/view_artist.png"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/font_be_vietnam_pro_thin.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/font/be_vietnam_pro_thin.xml"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_view_album.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/view_album.png"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_daliy_mix.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/daliy_mix.png"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_the_way_you_felt.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/the_way_you_felt.png"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_sleep_timer.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/sleep_timer.png"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/font_be_vietnam_pro_semibold.xml.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/font/be_vietnam_pro_semibold.xml"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-debug-34:/drawable_google.png.flat",
+        "source": "/Users/21991486/.gradle/daemon/8.11.1/com.example.clonespotify.app-main-36:/drawable/google.png"
     }
 ]

@@ -51,6 +51,19 @@ class MainScreen : AppCompatActivity() {
         val recyclerView03 = findViewById<RecyclerView>(R.id.SecondPlaylists)
         recyclerView03.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         recyclerView03.adapter = Playlist02ViewAdapter(playlist03)
+
+        // Recommended For You playlists
+        val playlist04 : List<Playlist02> = listOf(
+            Playlist02(R.drawable.daliy_mix, "Daily mix"),
+            Playlist02(R.drawable.celestial_campfire, "Celestial campfire"),
+            Playlist02(R.drawable.moonlight_peace, "Moonlight peace"),
+            Playlist02(R.drawable.cozy_vibes, "Cozy vibes"),
+            Playlist02(R.drawable.spotify_singles, "Spotify Singles")
+        )
+
+        val recyclerView04 = findViewById<RecyclerView>(R.id.ThirdPlaylists)
+        recyclerView04.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        recyclerView04.adapter = Playlist02ViewAdapter(playlist04)
     }
 
 
