@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="175dp"
     android:layout_height="56dp"
     android:backgroundTint="@color/grey_background"
@@ -32,8 +31,8 @@
             android:maxLines="2"
             android:padding="8dp"
             android:text="@string/sample_title"
-            android:textSize="10sp"
-            app:cornerRadius="5dp"
-            tools:ignore="SmallSp" />
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            app:cornerRadius="5dp"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

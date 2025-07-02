@@ -45,4 +45,9 @@
     <string name="eternal_sunshine_deluxe_brighter_days_ahead">eternal sunshine deluxe: brighter days ahead</string>
     <string name="sample_title">Sample title</string>
     <string name="made_for_you">Made for you</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="home_button">home_button</string>
+    <string name="search_button">search_button</string>
+    <string name="library_button">library_button</string>
+    <string name="create_button">create_button</string>
 </resources>
