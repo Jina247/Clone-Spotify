@@ -43,7 +43,6 @@
             android:src="@drawable/user"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/greetUser"
-            app:layout_constraintTop_toBottomOf="@id/greetUser"
             app:tint="@color/white" />
 
         <com.google.android.material.button.MaterialButton
@@ -64,8 +63,6 @@
             app:cornerRadius="30dp"
             app:layout_constraintStart_toEndOf="@+id/userImage"
             app:layout_constraintTop_toBottomOf="@+id/greetUser" />
-        app:layout_constraintStart_toEndOf="@id/userImage"
-        app:layout_constraintTop_toBottomOf="@id/greetUser" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/musicBtn"
@@ -85,8 +82,7 @@
             app:cornerRadius="30dp"
             app:layout_constraintStart_toEndOf="@+id/allBtn"
             app:layout_constraintTop_toBottomOf="@+id/greetUser" />
-        app:layout_constraintStart_toEndOf="@id/allBtn"
-        app:layout_constraintTop_toBottomOf="@id/greetUser" />
+
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
@@ -105,8 +101,7 @@
             app:cornerRadius="30dp"
             app:layout_constraintStart_toEndOf="@+id/musicBtn"
             app:layout_constraintTop_toBottomOf="@+id/greetUser" />
-        app:layout_constraintStart_toEndOf="@id/musicBtn"
-        app:layout_constraintTop_toBottomOf="@id/greetUser" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- Recent Playlists Rows -->
@@ -117,13 +112,10 @@
         android:orientation="horizontal"
         android:layout_marginTop="16dp"
         android:layout_margin="16dp"
-        android:layout_marginTop="16dp"
-        android:orientation="horizontal"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topBar">
-        app:layout_constraintTop_toBottomOf="@id/topBar">
 
         <!-- Row 1 -->
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -142,9 +134,9 @@
                 app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow1"
                 app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow1">
             </androidx.recyclerview.widget.RecyclerView>
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/item_playlist" />
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                tools:listitem="@layout/item_playlist" />-->
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <!-- Row 2 -->
@@ -154,8 +146,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginStart="14dp">
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="4dp">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/PlaylistRecycler02"
@@ -167,9 +157,6 @@
                 app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow2"
                 app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow2">
             </androidx.recyclerview.widget.RecyclerView>
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/item_playlist" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
@@ -184,8 +171,7 @@
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/RecentPlaylists"
         app:layout_constraintStart_toStartOf="parent">
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/RecentPlaylists">
+
 
         <TextView
             android:id="@+id/MadeForYouText"
@@ -197,11 +183,8 @@
             android:fontFamily="@font/be_vietnam_pro_semibold"
             android:text="@string/made_for_you"
             android:textColor="@color/white"
-            android:fontFamily="@font/be_vietnam_pro_semibold"
             android:textSize="24sp"/>
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,14 +193,12 @@
             android:orientation="horizontal"
             app:layout_constraintTop_toBottomOf="@id/MadeForYouText"
             app:layout_constraintStart_toStartOf="@id/MakeForYouPlaylists">
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/MadeForYouText">
+
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/SecondPlaylists"
                 android:layout_width="wrap_content"
                 android:layout_height="198dp"
-                tools:listitem="@layout/item_playlist02"
                 android:clipToPadding="false"
                 android:orientation="horizontal"
                 android:scrollbars="horizontal"
@@ -262,10 +243,8 @@
                 android:layout_height="198dp"
                 android:clipToPadding="false"
                 android:orientation="horizontal"
-                android:scrollbars="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 android:scrollbars="horizontal"/>
-            tools:listitem="@layout/item_playlist02" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
