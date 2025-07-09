@@ -26,7 +26,7 @@
                 app:layout_constraintStart_toStartOf="@id/horizontalCardView"/>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/Playlist02Tittle"
+                android:id="@+id/PlaylistTittle"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:ellipsize="end"
