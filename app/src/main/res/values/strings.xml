@@ -50,4 +50,5 @@
     <string name="search_button">search_button</string>
     <string name="library_button">library_button</string>
     <string name="create_button">create_button</string>
+    <string name="home">Home</string>
 </resources>
