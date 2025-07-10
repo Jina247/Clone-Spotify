@@ -51,4 +51,7 @@
     <string name="library_button">library_button</string>
     <string name="create_button">create_button</string>
     <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="library">Library</string>
+    <string name="current_song">current_song</string>
 </resources>
