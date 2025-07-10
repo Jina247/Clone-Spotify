@@ -8,6 +8,7 @@
     android:background="@color/black"
     tools:context=".MainScreen">
 
+    <!-- Top Bar -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topBar"
         android:layout_width="0dp"
@@ -16,7 +17,6 @@
         android:layout_marginTop="16dp"
         android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -24,12 +24,11 @@
             android:id="@+id/greetUser"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="start"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/be_vietnam_pro_semibold"
             android:text="@string/good_evening"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +40,7 @@
             android:contentDescription="@string/user_image"
             android:src="@drawable/user"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/greetUser"
+            app:layout_constraintTop_toBottomOf="@id/greetUser"
             app:tint="@color/white" />
 
         <com.google.android.material.button.MaterialButton
@@ -60,8 +59,8 @@
             android:textColor="@color/black"
             android:textSize="12sp"
             app:cornerRadius="30dp"
-            app:layout_constraintStart_toEndOf="@+id/userImage"
-            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+            app:layout_constraintStart_toEndOf="@id/userImage"
+            app:layout_constraintTop_toBottomOf="@id/greetUser" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/musicBtn"
@@ -79,8 +78,8 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             app:cornerRadius="30dp"
-            app:layout_constraintStart_toEndOf="@+id/allBtn"
-            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+            app:layout_constraintStart_toEndOf="@id/allBtn"
+            app:layout_constraintTop_toBottomOf="@id/greetUser" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
@@ -97,58 +96,231 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             app:cornerRadius="30dp"
-            app:layout_constraintStart_toEndOf="@+id/musicBtn"
-            app:layout_constraintTop_toBottomOf="@+id/greetUser" />
+            app:layout_constraintStart_toEndOf="@id/musicBtn"
+            app:layout_constraintTop_toBottomOf="@id/greetUser" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <LinearLayout
-        android:id="@+id/RecentPlaylists"
+    <!-- Recent Playlists Rows -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="16dp"
-        android:layout_margin="16dp"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topBar">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/RecentPlaylistsRow1"
-            android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toTopOf="@+id/ActivityBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp">
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/PlaylistRecycler01"
-                android:layout_width="0dp"
-                android:layout_height="180dp"
-                android:clipToPadding="false"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_playlist"
-                app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow1"
-                app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow1">
-            </androidx.recyclerview.widget.RecyclerView>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:orientation="vertical">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/RecentPlaylistsRow2"
-            android:layout_width="175dp"
+            <LinearLayout
+                android:id="@+id/RecentPlaylists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/topBar">
+
+                <!-- Row 1 -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/RecentPlaylistsRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/PlaylistRecycler01"
+                        android:layout_width="0dp"
+                        android:layout_height="180dp"
+                        android:clipToPadding="false"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:listitem="@layout/item_playlist" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <!-- Row 2 -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/RecentPlaylistsRow2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="4dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/PlaylistRecycler02"
+                        android:layout_width="0dp"
+                        android:layout_height="180dp"
+                        android:clipToPadding="false"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:listitem="@layout/item_playlist" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <!-- Made For You Section -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/MakeForYouPlaylists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/RecentPlaylists">
+
+                <TextView
+                    android:id="@+id/MadeForYouText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/be_vietnam_pro_semibold"
+                    android:text="@string/made_for_you"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/MadeForYouText">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/SecondPlaylists"
+                        android:layout_width="wrap_content"
+                        android:layout_height="198dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        android:scrollbars="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/item_playlist02" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/RecommendedForYou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/MakeForYouPlaylists">
+
+                <TextView
+                    android:id="@+id/RecommendedForYouText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/be_vietnam_pro_semibold"
+                    android:text="@string/recommended_for_you"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/RecommendedForYouText">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/ThirdPlaylists"
+                        android:layout_width="wrap_content"
+                        android:layout_height="198dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        android:scrollbars="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/item_playlist02" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <!-- Activity bar layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ActivityBar"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginStart="14dp">
+            android:gravity="center|bottom"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/PlaylistRecycler02"
-                android:layout_width="0dp"
-                android:layout_height="180dp"
-                android:clipToPadding="false"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_playlist"
-                app:layout_constraintTop_toTopOf="@id/RecentPlaylistsRow2"
-                app:layout_constraintStart_toStartOf="@id/RecentPlaylistsRow2">
-            </androidx.recyclerview.widget.RecyclerView>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                app:icon="@drawable/home"
+                app:iconGravity="top"
+                app:iconPadding="2dp"
+                app:cornerRadius="24dp"
+                app:iconTint="@color/white"
+                android:paddingHorizontal="16dp"
+                android:fontFamily="@font/be_vietnam_pro_semibold"
+                android:textSize="14sp"
+                android:layout_marginEnd="10dp"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/SearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                app:icon="@drawable/search"
+                app:iconGravity="top"
+                app:iconPadding="2dp"
+                app:cornerRadius="24dp"
+                app:iconTint="@color/white"
+                android:paddingHorizontal="16dp"
+                android:fontFamily="@font/be_vietnam_pro_semibold"
+                android:textSize="14sp"
+                android:layout_marginEnd="10dp"/>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/LibraryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/library"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                app:icon="@drawable/library"
+                app:iconGravity="top"
+                app:iconPadding="2dp"
+                app:cornerRadius="24dp"
+                app:iconTint="@color/white"
+                android:paddingHorizontal="16dp"
+                android:fontFamily="@font/be_vietnam_pro_semibold"
+                android:textSize="14sp"/>
 
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
