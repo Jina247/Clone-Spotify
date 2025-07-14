@@ -261,26 +261,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <LinearLayout
-            android:id="@+id/CurrentPlayingSong"
-            android:layout_width="374dp"
+        <FrameLayout
+            android:id="@+id/CurrentPlayingSongContainer"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#76848d"
-            app:layout_constraintTop_toTopOf="@id/ActivityBar"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/ActivityButton"
-            android:layout_gravity="center"
-            android:layout_marginStart="15dp"
-            android:orientation="horizontal">
+            app:layout_constraintEnd_toEndOf="parent">
 
-            <ImageButton
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:contentDescription="@string/current_song"
-                android:src="@drawable/ari_album"
-                android:scaleType="centerCrop"
-                android:background="@null"/>
-        </LinearLayout>
+            <include
+                layout="@layout/current_playing_song" />
+        </FrameLayout>
+
 
         <LinearLayout
             android:id="@+id/ActivityButton"
@@ -301,12 +293,13 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/home"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"
+                android:layout_gravity="bottom"
                 android:layout_marginEnd="10dp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -318,12 +311,13 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/search"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"
+                android:layout_gravity="bottom"
                 android:layout_marginEnd="10dp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -335,10 +329,11 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/library"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
+                android:layout_gravity="bottom"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"/>
         </LinearLayout>

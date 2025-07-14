@@ -15,6 +15,7 @@
         </item>
     </string-array>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/be_vietnam_pro</item>
         <item>@font/be_vietnam_pro_light</item>
         <item>@font/be_vietnam_pro_semibold</item>
         <item>@font/be_vietnam_pro_thin</item>
@@ -28,11 +29,14 @@
     <string name="already_have_account">Already have account?</string>
     <string name="app_name">CloneSpotify</string>
     <string name="arialb">AriAlb</string>
+    <string name="ariana_grande">Ariana Grande</string>
     <string name="confirm_password">Confirm password</string>
+    <string name="connect_to_device">connect to device</string>
     <string name="continue_with_apple">Continue with Apple</string>
     <string name="continue_with_facebook">Continue with Facebook</string>
     <string name="continue_with_google">Continue with Google</string>
     <string name="create_button">create_button</string>
+    <string name="current_song">current_song</string>
     <string name="email_hint_example">jenny123@example.com</string>
     <string name="email_or_username_label">Email or username</string>
     <string name="eternal_sunshine_deluxe_brighter_days_ahead">eternal sunshine deluxe: brighter days ahead</string>
@@ -57,6 +61,7 @@
     <string name="notification">notification</string>
     <string name="password_hint">Enter your password</string>
     <string name="password_label">Password</string>
+    <string name="play_pause_buttons">play pause buttons</string>
     <string name="podcasts">Podcasts</string>
     <string name="recommended_for_you">Recommended for you</string>
     <string name="sample_title">Sample title</string>
@@ -76,6 +81,7 @@
     <string name="sign_up_value">Email or phone number</string>
     <string name="spotify">Spotify</string>
     <string name="spotifyicon">SpotifyIcon</string>
+    <string name="twilight_zone">twilight zone</string>
     <string name="user_image">user image</string>
     <style name="Base.Theme.CloneSpotify" parent="Theme.Material3.DayNight.NoActionBar">
         

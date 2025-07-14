@@ -261,7 +261,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+        <FrameLayout
+            android:id="@+id/CurrentPlayingSongContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <include
+                layout="@layout/current_playing_song" />
+        </FrameLayout>
+
+
         <LinearLayout
+            android:id="@+id/ActivityButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|bottom"
@@ -279,12 +293,13 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/home"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"
+                android:layout_gravity="bottom"
                 android:layout_marginEnd="10dp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -296,12 +311,13 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/search"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"
+                android:layout_gravity="bottom"
                 android:layout_marginEnd="10dp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -313,13 +329,13 @@
                 android:backgroundTint="@color/black"
                 app:icon="@drawable/library"
                 app:iconGravity="top"
-                app:iconPadding="2dp"
-                app:cornerRadius="24dp"
+                app:iconPadding="1dp"
                 app:iconTint="@color/white"
                 android:paddingHorizontal="16dp"
+                android:paddingVertical="1dp"
+                android:layout_gravity="bottom"
                 android:fontFamily="@font/be_vietnam_pro_semibold"
                 android:textSize="14sp"/>
-
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

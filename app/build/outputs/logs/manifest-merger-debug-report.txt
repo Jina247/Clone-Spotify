@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user1\.gradle\caches\8.11.1\transforms\bb550b25ba1bd91ee4767dc742f9c58c\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\user1\.gradle\caches\8.11.1\transforms\5d855114e1b2c06d1ce38b0b8966e494\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\user1\.gradle\caches\8.11.1\transforms\730d32c8d333765ca4087d62a7e8af07\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -58,8 +58,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\user1\.
 	xmlns:android
 		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:5:5-30:19
-INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:5:5-34:19
+INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user1\.gradle\caches\8.11.1\transforms\bb550b25ba1bd91ee4767dc742f9c58c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user1\.gradle\caches\8.11.1\transforms\bb550b25ba1bd91ee4767dc742f9c58c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\user1\.gradle\caches\8.11.1\transforms\5d855114e1b2c06d1ce38b0b8966e494\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -98,34 +98,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:13:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.clonespotify.WelcomeScreen
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:15:9-17:39
+activity#com.example.clonespotify.SignUp
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:16:13-42
-activity#com.example.clonespotify.MainScreen
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:18:9-26:20
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:16:13-35
+activity#com.example.clonespotify.WelcomeScreen
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:19:13-39
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:19:13-42
+activity#com.example.clonespotify.MainScreen
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:22:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:27:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:27:9-29:57
+ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:31:9-33:57
 	android:resource
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:29:13-54
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:33:13-54
 	android:name
-		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:28:13-43
+		ADDED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user1\Desktop\Kotlin-AndroidStudio\Clone-Spotify\app\src\main\AndroidManifest.xml

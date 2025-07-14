@@ -54,4 +54,8 @@
     <string name="search">Search</string>
     <string name="library">Library</string>
     <string name="current_song">current_song</string>
+    <string name="twilight_zone">twilight zone</string>
+    <string name="ariana_grande">Ariana Grande</string>
+    <string name="connect_to_device">connect to device</string>
+    <string name="play_pause_buttons">play pause buttons</string>
 </resources>
