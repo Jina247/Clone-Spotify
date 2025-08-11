@@ -36,7 +36,7 @@
             android:layout_height="85dp"
             android:layout_marginTop="50dp"
             android:gravity="center"
-            android:src="@drawable/spotify_icon_svg" />
+            android:src="@drawable/spotify_icon" />
 
         <TextView
             android:id="@+id/loginTitle"
