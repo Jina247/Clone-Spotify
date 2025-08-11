@@ -67,5 +67,38 @@ class SignIn : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+    private fun loginUser() {
+        val email : String = emailAndUsername.text.toString().trim()
+        val pass : String = password.text.toString().trim()
+
+        if (email.isEmpty()) {
+            emailAndUsername.error = "Email is required!"
+            emailAndUsername.requestFocus()
+            return
+        }
+        if (pass.isEmpty()) {
+            password.error = "Password is required!"
+            password.requestFocus()
+            return
+        }
+
+        auth.signInWithEmailAndPassword(email, pass )
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    Log.d(TAG, "Success!")
+                    val user = auth.currentUser
+                    showUI(user)
+                }
+                else {
+                    Log.w(TAG, "Please sign up", task.exception)
+                    Toast.makeText(
+                        baseContext,
+                        "Authentication failed.",
+                        Toast.LENGTH_SHORT,
+                    ).show()
+                    finish()
+                }
+            }
+    }
 
 }
